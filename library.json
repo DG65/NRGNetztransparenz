@@ -1,0 +1,12 @@
+{
+  "id": "{0606ED0C-3A3E-4219-A169-F53925FEA66E}",
+  "author": "DG65",
+  "name": "NRG-Stack Netztransparenz",
+  "url": "https://github.com/DG65/NRGNetztransparenz",
+  "compatibility": {
+    "version": "9.0"
+  },
+  "version": "0.1.0",
+  "build": 1,
+  "date": 1790143000
+}

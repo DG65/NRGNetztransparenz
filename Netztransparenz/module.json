@@ -1,0 +1,14 @@
+{
+  "id": "{446D79AD-D546-48AF-AE5C-96D635E2A203}",
+  "name": "Netztransparenz",
+  "type": 3,
+  "vendor": "",
+  "aliases": [
+    "NRG-Stack Netztransparenz"
+  ],
+  "url": "https://github.com/DG65/NRGNetztransparenz",
+  "parentRequirements": [],
+  "childRequirements": [],
+  "implemented": [],
+  "prefix": "NTP"
+}

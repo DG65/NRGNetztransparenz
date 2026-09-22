@@ -1,0 +1,35 @@
+{
+  "elements": [
+    {
+      "type": "Label",
+      "caption": "Zentraler Zugriff auf die Netztransparenz.de-WebAPI (u. a. negative Spotmarktpreise nach EEG § 51) für den gesamten NRG-Stack-Verbund. Andere Module (DVHub, Szenariorechner, ...) fragen diese Instanz ab, statt selbst mit Netztransparenz.de zu sprechen — vermeidet, dass mehrere Module sich gegenseitig an die Ratenbegrenzung (2 Anfragen/Sekunde/IP, 2 h Sperre) stoßen."
+    },
+    {
+      "type": "ValidationTextBox",
+      "name": "ClientIdInput",
+      "caption": "Client-ID (aus dem OAuth Manager im Extranet von Netztransparenz.de)"
+    },
+    {
+      "type": "PasswordTextBox",
+      "name": "ClientSecretInput",
+      "caption": "Client-Secret"
+    },
+    {
+      "type": "Label",
+      "caption": "Beide Felder werden nach dem Speichern sofort geleert; Client-ID/-Secret liegen danach nur noch intern (nicht im Formular sichtbar)."
+    }
+  ],
+  "actions": [],
+  "status": [
+    {
+      "code": 102,
+      "icon": "active",
+      "caption": "Aktiv"
+    },
+    {
+      "code": 201,
+      "icon": "error",
+      "caption": "Keine Zugangsdaten hinterlegt"
+    }
+  ]
+}
