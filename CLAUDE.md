@@ -85,3 +85,9 @@ verlieren, das eigentlich berechtigt wäre.
 3. Live-Test mit echten Zugangsdaten.
 4. Rechtliche Fassung-zu-`logic`-Zuordnung verifizieren, sobald tatsächlich für eine
    historische Auswertung gebraucht (siehe oben).
+
+## Branch-Modell
+
+Seit 28.10.2026 wie im übrigen Verbund (Entscheidung vom 27.10.2026, `ems-integration` ist
+abgeschafft): `beta` (Arbeitsbranch, Store-Beta) und `main` (Stable). Änderungen landen auf
+`beta`; `main` wird erst nach Bewährung per Fast-Forward nachgezogen.
